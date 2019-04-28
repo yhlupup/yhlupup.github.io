@@ -1,3 +1,3 @@
 console.log(111);
-console.log("hello");
-
+console.log("hi");
+console.log("bye");

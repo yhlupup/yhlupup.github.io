@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>移动端页面</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+	</style>
+	<link rel="stylesheet" href="轮播图/css/swiper.min.css">
+	<link rel="stylesheet" href="icon/iconfont.css"> 
+	
+	<link rel="stylesheet" href="index-app.css">
+	<script src="jquery/jquery1.9/jquery-1.9.0.min.js">
+	</script>
+	<script src="datasJS/datasServer.js">
+	</script>
+	<script src="index-app.js"></script>
+	<script src="轮播图/js/swiper.js">
+	</script>
+	<script src="common.js">
+	</script>
+	
+	
+</head>
+<body>
+	<div class="header">
+		<span class="iconfont" id="fontPosition">&#xe732</span>
+		<input type="text" placeholder="康熙词典" id="btnSearch">
+		<span class="iconfont" id="fontSearch">&#xe71e</span>
+	</div>
+	<div class="turnPicture">
+			<!-- 定义swiper在整个页面的显示位置-容器 -->
+			<div class="swiper-container">
+			<!-- 定义轮播元素的占位区域 -->
+			<div class="swiper-wrapper">
+			<!-- 定义轮播的图片 -->
+				<div class="swiper-slide">
+					<img src="imgs/slides/slides01.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="imgs/slides/slides02.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="imgs/slides/slides03.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="imgs/slides/slides01.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="imgs/slides/slides02.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img src="imgs/slides/slides03.jpg">
+				</div>
+		</div>
+		<!-- 分页器 -->
+		<div class="swiper-pagination"></div>
+		</div>
+	</div>
+	<div class="title">
+		<div class="titleFirst">
+			<span class="iconfont" id="iconFont1">&#xe70c</span>
+			<span class="titleText">全部分类</span>
+		</div>
+		<div class="titleSecond">
+			<span class="iconfont" id="iconFont1">&#xe754</span>
+			<span class="titleText">订单</span>
+		</div>
+		<div class="titleThird">
+			<span class="iconfont" id="iconFont3">&#xe78f</span>
+			<span class="titleText">购物车</span>
+		</div>
+
+		<div class="titleForth">
+			<span class="iconfont" id="iconFont4">&#xe74e</span>
+			<span class="titleText">个人中心</span>
+		</div>
+	</div>
+	<!-- 图书分类 -->
+	<div class="bookList">
+		
+	</div>
+	<div style="border-bottom: 0.1rem solid #ccc"></div>
+	<div class="selectBook">
+		<div class="selectBookTop">
+			<div class="selectBookTopLeft">
+				<span>淘书团</span>
+			</div>
+			<div class="selectBookTopMiddle">
+				<span>更多</span>
+			</div>
+			<div class="selectBookTopRight">
+				<span class="iconfont" id="iconfontGt">&#xe727</span>
+			</div>
+			
+		</div>
+
+		<div class="selectBookList">
+		</div>
+	</div>
+	<div class="newBooks">
+		<div class="newBooksTop">
+		<div class="newBooksTopLeft">
+			<span>新书上架</span>
+		</div>
+		<div class="newBooksTopMiddle">
+			<span>更多</span>
+		</div>
+		<div class="newBooksTopRight">
+			<span class="iconfont" id="iconfontGt1">&#xe727</span>
+		</div>
+			
+		</div>
+		<div class="newBooksList">
+		</div>	
+	</div>
+	<div class="bestSelling">
+		<div class="selectBookTop">
+			<div class="selectBookTopLeft">
+				<span>畅销榜</span>
+			</div>
+			<div class="selectBookTopMiddle">
+				<span>更多</span>
+			</div>
+			<div class="selectBookTopRight">
+				<span class="iconfont" id="iconfontGt">&#xe727</span>
+			</div>
+			
+		</div>
+		<div class="bestSellingList">
+			
+		</div>	
+	</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

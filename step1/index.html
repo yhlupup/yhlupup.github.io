@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>淘书网</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="轮播图/css/swiper.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+
+	</style>
+	<script src="datasJS/datasServer.js">
+	</script>
+	<script src="轮播图/js/swiper.js">
+	</script>
+	<script src="jquery/jquery1.9/jquery-1.9.0.min.js">
+	</script>
+	<script src="jssheet.js"></script>
+<body>
+	<div class="top">
+		<div>
+			<div id="top_l1" class="top_l">欢迎光临网博图书馆
+			</div>
+			<div id="top_l2" class="top_l">请登录</div>
+			<div id="top_l3" class="top_l">免费注册</div>
+			<div id="top_r1" class="top_r">
+				<span>个人账户</span>
+				<span class="iconfont" id="fontJ">&#xe6aa</span>
+			</div>
+			<div id="top_r2" class="top_r">购物车</div>
+			<div id="top_r3" class="top_r">我的订单</div>
+		</div>
+	</div>
+	<div class="second">
+		<div id="second_l">
+			<img src="psimages/logo.jpg" alt="这是logo">
+		</div>
+		<div id="second_m">
+			<form>
+				<div id="second_m1">
+					<input type="text" id="search">
+					<input type="submit" id="but1" value="搜索">	
+				</div>	
+			</form>
+			<div>
+				<a href="">史蒂芬霍金	 /</a>
+				<a href="">刺杀骑士团长 /</a>
+				<a href="">蒙台梭利育儿全书 /</a>
+				<a href="">阿加莎克里斯蒂 /</a>
+			</div>
+		</div>
+		<div id="second_r">
+			<img src="psimages/update.jpg" alt="111">
+		</div>
+	</div>	
+	<div class="nav">
+		<div class="navLeft">图书分类</div>
+		<div class="navRight" id="navFirst">首页</div>
+		<div class="navRight">淘书团</div>
+		<div class="navRight">畅销榜</div>
+		<div class="navRight">新上架</div>
+		<div class="navRight">平台自营</div>
+		<div class="navRight">出版社直销</div>
+	</div>
+	<hr color="#ff4f00" size="4px">
+	<div class="body">
+		<div class="left1">
+		</div>
+		<div class="over">
+		</div>
+		<div class="b_top">
+			<!-- 定义swiper在整个页面的显示位置-容器 -->
+	<div class="swiper-container">
+		<!-- 定义轮播元素的占位区域 -->
+		<div class="swiper-wrapper">
+			<!-- 定义轮播的图片 -->
+			<div class="swiper-slide">
+				<img src="imgs/slides/slides01.jpg">
+			</div>
+			<div class="swiper-slide">
+				<img src="imgs/slides/slides02.jpg">
+			</div>
+			<div class="swiper-slide">
+				<img src="imgs/slides/slides03.jpg">
+			</div>
+			<div class="swiper-slide">
+				<img src="imgs/slides/slides01.jpg">
+			</div>
+			<div class="swiper-slide">
+				<img src="imgs/slides/slides02.jpg">
+			</div>
+			<div class="swiper-slide">
+				<img src="imgs/slides/slides03.jpg">
+			</div>
+		</div>
+		<!-- 分页器 -->
+		<div class="swiper-pagination"></div>
+		<!-- 前进后退箭头 -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+	</div>
+		</div>
+		<div class="bottom">
+			<div class="btm_top">
+				<div class="btm_t" id="guess">猜你喜欢</div>
+				<div class="btm_t" id="select">本周精选</div>
+				<div class="btm_t" id="recom">主编推荐</div>
+			</div>
+			<div class="botttomContent">
+				
+			</div>
+		    
+		</div>
+		<div class="right1">
+			<div class="right1_1">
+				<div>图书畅销榜</div>
+				<a href="">更多&gt&gt</a>
+			</div>
+			<div class="right1_2">
+			</div>
+		</div>
+		<div class="left2">
+			<img src="psimages/left2.jpg">
+		</div>
+	</div>
+	<div class="middle">
+		<img src="psimages/middle1.jpg" alt="">
+		<img src="psimages/middle2.jpg" alt="">
+		<img src="psimages/middle3.jpg" alt="">
+	</div>
+	<div class="sell">
+		<span>淘书团热销</span>
+		<a href="">查看更多商品></a>
+	</div>
+	<div class="sell_c">
+	</div>
+	<div class="newbooks">
+		<span>新书上架促销</span>
+		<a href="">查看更多商品></a>
+	</div>
+	<!-- 新书上架 -->
+	<div class="bookList">
+	</div>
+	<!-- 平台自营 -->
+	<div class="selfSupport">
+		<div class="self">
+			<div class="selfbtn">
+				<span>平台自营</span>
+			</div>
+		</div>
+		<div class="selfRecommend">
+			<div class="selfRecommend_t">
+				<span>自营好书推荐</span>
+			</div>
+		</div>
+		<div class="selfSupportList">
+		</div>
+	</div>	
+	<div class="pressList">
+		<div class="pressListLeft">
+			<div class="pressListName">出版社直销</div>
+			<div class="pressListList"></div>
+			<div class="pressListBtn">
+				<span class="iconfont" id="fontUp">&#xe669</span>
+				<span class="iconfont" id="fontDown">&#xe668</span>
+				</div>
+			</div>
+		<div class="pressListRight">
+		</div>	
+		</div>
+		
+	</div>
+	<div class="end">
+		<span>&copy 2018 南京网博优壹by项目组-chw</span>
+		<br>
+		<span>2019年3月23日16：52</span>
+	</div>
+</body>
+</html>

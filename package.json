@@ -1,0 +1,12 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "Git 版本控制工具（在团队协作中——提交、合并、解决冲突、版本、追溯、发布、远程上传、下载。。。。）",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
